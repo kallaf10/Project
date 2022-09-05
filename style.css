@@ -221,6 +221,7 @@
 
             #Speakers {
                 text-align: center;
+                display: none;
                 font-size: small;
             }
 

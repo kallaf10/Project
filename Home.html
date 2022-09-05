@@ -12,7 +12,7 @@
             href="style.css">
     </head>
 
-    <body>
+    <body onload="addd()">
         <nav>
             <a href="Home.html"><img src="images/1.png"
                     height="40px"
@@ -52,14 +52,17 @@
                 <button id="Lab"
                     ondblclick="showlabs()"
                     onclick="hidelaps()">laptops</button>
-                <button id="Speak">Speakers</button>
+                <button id="Speak"
+                    ondblclick="showSpeakers()"
+                    onclick="hideSpeakers()">Speakers</button>
             </div>
         </div>
         <div id="MobContainer">
             <span>Mobile phones</span>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/20_.jpg"
-                    alt=""> <span>$246.32</span> <button>Add To Cart</button>
+                    alt=""> <span>$246.32</span><button class="add">Add To Cart</button>
                 <p> SAMSUNG Galaxy A13 5G Cell Phone, Factory Unlocked Android Smartphone, 64GB, Triple Lens Camera,
                     Infinity Display
                     Screen, Long Battery Life, Expandable Storage, US Version, Black</p>
@@ -77,10 +80,11 @@
                     </li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/21.jpg"
-                    alt=""> <span style="text-decoration: line-through;">$1,199.99</span> $999.99 <button>Add To
-                    Cart</button>
+                    alt=""> <span style="text-decoration: line-through;">$1,199.99</span> $999.99 <button
+                    class="add">Add To Cart</button>
                 <p> SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera & Video,
                     Brightest Display
                     Screen,k</p>
@@ -100,10 +104,11 @@
                     </li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/22.jpg"
-                    alt=""> <span style="text-decoration: line-through;">$599.99</span> $499.99<button>Add To
-                    Cart</button>
+                    alt=""> <span style="text-decoration: line-through;">$599.99</span> $499.99<button class="add">Add
+                    To Cart</button>
                 <p> SAMSUNG Galaxy S20 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, Pro Grade Camera,
                     30X Space Zoom, Night
                     Mode, US Version, Cloud Mint Green</p>
@@ -123,11 +128,12 @@
                     </li>
                 </ul>
             </div>
-            <div><img style="
+            <div>
+                <img style="
                     border-radius:
                     10px;"
                     src="images/23.jpg"
-                    alt=""> <span style="text-decoration: line-through;">199.99</span> $151.99<button>Add To
+                    alt=""> <span style="text-decoration: line-through;">199.99</span> $151.99<button class="add">Add To
                     Cart</button>
                 <p> TCL 30XL |2022| Unlocked Cell Phone, 6.82 inch Vast Display, 5000mAh Battery, Android 12 Smartphone,
                     50MP AI
@@ -148,10 +154,11 @@
                     </li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/24.jpg"
-                    alt=""> <span style="text-decoration: line-through;">$1,199.99</span> $850.00<button>Add To
-                    Cart</button>
+                    alt=""> <span style="text-decoration: line-through;">$1,199.99</span> $850.00<button class="add">Add
+                    To Cart</button>
                 <p> SAMSUNG Galaxy S21 Ultra 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone
                     Pro-Grade Camera 8K Video
                     108MP High Res, Phantom Black</p>
@@ -171,9 +178,10 @@
                         effects.</li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/25.jpg"
-                    alt=""> <span>$246.32</span> <button>Add To Cart</button>
+                    alt=""> <span>$246.32</span><button class="add">Add To Cart</button>
                 <p> Nokia G50 5G | Android 11 | Unlocked Smartphone | US Version | 4/128GB | 6.82-Inch Screen | 48MP
                     Triple Camera | Sand</p>
                 <ul><strong>About this item</strong>
@@ -205,9 +213,10 @@
         </div>
         <div id="Comps">
             <span>Computers</span>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/30.jpg"
-                    alt=""> <span>$246.32</span> <button>Add To Cart</button>
+                    alt=""> <span>$246.32</span> <button class="add">Add To Cart</button>
                 <p> HP EliteDesk 800 G1 Desktop Computer SFF PC(Renewed),i7 Business Small Form Factor,32GB Ram,1TB
                     SSD,WiFi,DVD-RW,Windows
                     10 Pro,Keyboard & Mouse Included...</p>
@@ -227,9 +236,10 @@
                     </li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/31.jpg"
-                    alt=""> <span style="text-decoration: line-through;">679.99</span>$609.99<button>Add To
+                    alt=""> <span style="text-decoration: line-through;">679.99</span>$609.99<button class="add">Add To
                     Cart</button>
                 <p> Lenovo IdeaCentre AIO 3i 22" All-in-One Computer, Intel Core i3-1115G4, FHD Touch Display, 8GB RAM,
                     256GB SSD, DVD RW
@@ -249,11 +259,11 @@
                     </li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/32.jpg"
                     alt=""> <span style="text-decoration: line-through;">$609.99</span> $549.99
-                <button>Add To
-                    Cart</button>
+                <button class="add">Add To Cart</button>
                 <p>HP Chromebase 21.5" All-in-One Desktop, Intel Pentium Gold 6405U Processor, 4 GB RAM, 128 GB SSD,
                     Rotating Full HD IPS
                     Touchscreen, Chrome OS, Bluetooth Keyboard and Mouse Combo (22-aa0022, 2021)</p>
@@ -272,13 +282,13 @@
 
                 </ul>
             </div>
-            <div><img style="
+            <div>
+                <img style="
                                     border-radius:
                                     10px;"
                     src="images/33.jpg"
                     alt=""> <span style="text-decoration: line-through;">$174.99</span> $151.97
-                <button>Add To
-                    Cart</button>
+                <button class="add">Add To Cart</button>
                 <p> Fastest hp Desktop Business Tower Computer PC (Intel Ci5-4570, 16GB Ram, 2TB HDD + 120GB SSD,
                     Wireless WiFi, Display
                     Port, USB 3.0) Win 10 Pro (Renewed)</p>
@@ -298,10 +308,11 @@
                     </li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/34.jpg"
-                    alt=""> <span style="text-decoration: line-through;">$1,299.99</span>$999.99<button>Add To
-                    Cart</button>
+                    alt=""> <span style="text-decoration: line-through;">$1,299.99</span>$999.99<button class="add">Add
+                    To Cart</button>
                 <p> Skytech Chronos Mini Gaming PC Desktop - AMD Ryzen 5 3600 3.6GHz, GTX 1660 Super 6G, 16GB DDR4 3000,
                     500GB SSD, AC WiFi,
                     Windows 10 Home 64-bit, Black</p>
@@ -320,9 +331,10 @@
                         Gen 1 | 1 x HDMI .</li>
                 </ul>
             </div>
-            <div><img style="border-radius: 10px;"
+            <div>
+                <img style="border-radius: 10px;"
                     src="images/35.jpg"
-                    alt=""> <span>$158.99</span> <button>Add To Cart</button>
+                    alt=""> <span>$158.99</span><button class="add">Add To Cart</button>
                 <p> HP Elite Desktop PC Computer Intel Core i5 3.1-GHz, 8 gb Ram, 1 TB Hard Drive, DVDRW, 19 Inch LCD
                     Monitor, Keyboard,
                     Mouse, Wireless WiFi, Windows 10 (Renewed)/p>
@@ -348,7 +360,7 @@
             <div>
                 <img style="border-radius: 10px;"
                     src="images/40.jpg"
-                    alt=""> <span>$499.00</span> <button>Add To Cart</button>
+                    alt=""> <span>$499.00</span> <button class="add">Add To Cart</button>
                 <p> 2022 New HP 15 Laptop, 15.6" HD LED Display, Intel Dual-Core Processor, Intel UHD Graphics, 16GB
                     DDR4 RAM, 1TB SSD,
                     Ethernet Port, USB Type-C, Long Battery Life, Windows 11.</p>
@@ -369,8 +381,7 @@
             <div>
                 <img style="border-radius: 10px;"
                     src="images/41.jpg"
-                    alt=""> <span></span>$339.00<button>Add To
-                    Cart</button>
+                    alt=""> <span></span>$339.00<button class="add">Add To Cart</button>
                 <p> 2022 HP Premium 14-inch HD Thin and Light Laptop, Intel Quad-Core Processor, 8GB RAM, 64GB Storage,
                     Long Battery Life,
                     Webcam, Bluetooth, HDMI, Wi-Fi, Rose Gold, Windows 11 + 1 Year Microsoft 365/p>
@@ -394,8 +405,7 @@
                     height=200px
                     width="100px"
                     alt=""> <span style="text-decoration: line-through;">269.99</span> $129.99
-                <button>Add To
-                    Cart</button>
+                <button class="add">Add To Cart</button>
                 <p>HP ASUS Chromebook C403 Rugged & Spill Resistant Laptop, 14.0" HD, 180 Degree, Intel Celeron N3350
                     Processor, 4GB RAM, 32GB
                     eMMC, MIL-STD 810G Durability, Dark Blue, Education, Chrome OS, C403NA-WS42-BL</p>
@@ -424,8 +434,7 @@
                     height=200px
                     width="100px"
                     alt=""> <span style="text-decoration: line-through;"></span> $4,299.99
-                <button>Add To
-                    Cart</button>
+                <button class="add">Add To Cart</button>
                 <p> Razer Blade 17 Gaming Laptop: NVIDIA GeForce RTX 3080 Ti - 12th Gen Intel 14-Core i9 CPU - 17.3" 4K
                     144Hz - 32GB DDR5
                     RAM - 1TB PCIe SSD - Windows 11 - Chroma RGB - Thunderbolt 4 - SD Card Reader</p>
@@ -452,8 +461,8 @@
                     src="images/44.jpg"
                     height=200px
                     width="100px"
-                    alt=""> <span style="text-decoration: line-through;">$2,999.99</span>$2,579.99<button>Add To
-                    Cart</button>
+                    alt=""> <span style="text-decoration: line-through;">$2,999.99</span>$2,579.99<button
+                    class="add">Add To Cart</button>
                 <p> Acer Predator Triton 500 SE Gaming/Creator Laptop | 12th Gen Intel i9-12900H | GeForce RTX 3080 Ti |
                     16" WQXGA 240Hz
                     G-SYNC Display | 32GB LPDDR5 | 1TB Gen 4x4 SSD | Killer Wi-Fi 6E | PT516-52s-99EL</p>
@@ -477,7 +486,7 @@
             <div>
                 <img style="border-radius: 10px;"
                     src="images/45.jpg"
-                    alt=""> <span>$1,099.99</span> <button>Add To Cart</button>
+                    alt=""> <span>$1,099.99</span> <button class="add">Add To Cart</button>
                 <p> SAMSUNG 13.3” Galaxy Book2 Pro Laptop Computer, i5 / 8GB / 256GB, 12th Gen Intel Core Processor, Evo
                     Certified,
                     Lightweight, 2022 Model, Graphite</p>
@@ -551,113 +560,101 @@
                     src="images/52.jpg"
                     height=200px
                     width="100px"
-                    alt=""> <span style="text-decoration: line-through;">269.99</span> $129.99
-                <button>Add To
+                    alt=""> <span style="text-decoration: line-through;">$89.99</span>$69.99
+                <button class="add">Add To
                     Cart</button>
-                <p>HP ASUS Chromebook C403 Rugged & Spill Resistant Laptop, 14.0" HD, 180 Degree, Intel Celeron N3350
-                    Processor, 4GB RAM, 32GB
-                    eMMC, MIL-STD 810G Durability, Dark Blue, Education, Chrome OS, C403NA-WS42-BL</p>
+                <p>Sanyun SW208 3" Active Bluetooth 5.0 Bookshelf Speakers – 60W Carbon Fiber Speaker Unit - Built-in
+                    24bit DAC - Dynamic
+                    3D Surround Sound – 2.0 Computer PC Monitor Gaming Speakers (Pair, White)</p>
                 <ul><strong>About this item</strong>
                     <li>
-                        14 inch HD 1366 x 768 screen with anti-glare for larger screen size and a better viewing
-                        experience.
+                        【SMALL HIFI BOOKSHELF SPEAKERS】Small bookshelf speakers with HiFi sound quality. SW208 adopts
+                        standard bookshelf speaker
+                        system design.
                     </li>
                     <br>
                     <li>
-                        The HD screen has a durable 180-degree hinge that can be used to move the screen flat which is
-                        better for collaborative
-                        settings.
+                        【30Wx2 CARBON FIBER SEPAKER UNIT】The speaker unit is designed with carbon fiber material and
+                        multi-layer voice coil
+
                     </li>
-                    <li>
-                        14 inch HD 1366 x 768 screen with anti-glare for larger screen size and a better viewing
-                        experience.
-                    </li>
+
                 </ul>
             </div>
             <div>
                 <img style="
                                     border-radius:
                                     10px;"
-                    src="images/43.jpg"
+                    src="images/53.jpg"
                     height=200px
                     width="100px"
-                    alt=""> <span style="text-decoration: line-through;"></span> $4,299.99
-                <button>Add To
+                    alt=""> <span style="text-decoration: line-through;"></span> $450
+                <button class="add">Add To
                     Cart</button>
-                <p> Razer Blade 17 Gaming Laptop: NVIDIA GeForce RTX 3080 Ti - 12th Gen Intel 14-Core i9 CPU - 17.3" 4K
-                    144Hz - 32GB DDR5
-                    RAM - 1TB PCIe SSD - Windows 11 - Chroma RGB - Thunderbolt 4 - SD Card Reader</p>
+                <p> Audio Pro Addon C5 Speaker | Compact High Fidelity WiFi Bluetooth Wireless Multiroom Speaker |
+                    AirPlay, Alexa, Spotify
+                    Connect - Grey</p>
                 <ul><strong>About this item</strong>
                     <li>
-                        NVIDIA GeForce RTX 3080 Ti GPU: The new GeForce RTX 3080 Ti Laptop GPU brings the flagship 80 Ti
-                        class of GPUs to
-                        laptops for the first time – featuring 16GB of the fastest GDDR6 memory ever shipped in a
-                        laptop, the RTX 3080 Ti
-                        delivers higher performance than the desktop TITAN RTX
+                        GREAT HI-FI SOUND: A small and easy to place multiroom stereo speaker. With stunning dynamics
+                        and deep bass in
+                        abundance, the Addon C5 performs bigger than it looks.
                     </li>
                     <br>
                     <li>
-                        12th Gen Intel Core i9 14-Core CPU: Experience cutting-edge speed on the all-new Intel Core
-                        i9-12900H processor with up
-                        to 5.3GHz of Turbo Boost for unrivalled performance to take on the most demanding gaming and
-                        creative tasks
+                        PLAY ANYTHING WIRELESSLY: Just connect your turn table or CD-player to a C5 or C10 speaker, and
+                        let the sound stream
+                        wirelessly to all the speakers in your setup. Old School is the New Cool.
                     </li>
 
                 </ul>
             </div>
             <div>
                 <img style="border-radius: 10px;"
-                    src="images/44.jpg"
+                    src="images/54.jpg"
                     height=200px
                     width="100px"
-                    alt=""> <span style="text-decoration: line-through;">$2,999.99</span>$2,579.99<button>Add To
+                    alt=""> <span style="text-decoration: line-through;">$60.00</span>$39.99<button class="add">Add To
                     Cart</button>
-                <p> Acer Predator Triton 500 SE Gaming/Creator Laptop | 12th Gen Intel i9-12900H | GeForce RTX 3080 Ti |
-                    16" WQXGA 240Hz
-                    G-SYNC Display | 32GB LPDDR5 | 1TB Gen 4x4 SSD | Killer Wi-Fi 6E | PT516-52s-99EL</p>
+                <p> Portable Bluetooth Speaker, Wireless IP67 Waterproof Outdoor Speaker with Subwoofer, 16W Louder
+                    Volume, Longer Playtime,
+                    Bluetooth 5.0, Dual Pairing, Portable Speaker for Party Beach Camping, Black</p>
                 <ul><strong>About this item</strong>
                     <li>
-                        Extreme Performance: Compete or create with impressive power and speed of the 12th Generation
-                        Intel Core i9-12900H
-                        processor, featuring 14 cores and 20 threads to divide and conquer any creative task or run your
-                        most intensive games
+                        IMMERSIVE SOUND: Two precision acoustic stereo drivers will bring you 16W shocking sound.
+                        Equipped with MIATONE-DSP
+                        technology, NO distortion, the bluetooth speaker has loud treble, crisp mediant, and full-bodied
+                        bass, allowing you to
+                        be on the scene!
+
                     </li>
                     <br>
-                    <li>
-                        RTX, It's On: The latest NVIDIA GeForce RTX 3080 Ti (16GB dedicated GDDR6 VRAM) is powered by
-                        award-winning Ampere
-                        architecture with NVIDIA Advanced Optimus, Ray Tracing Cores, Tensor Cores, and streaming
-                        multiprocessors supporting
-                        DirectX 12 Ultimate for the ultimate gaming performance
-                    </li>
+
                 </ul>
             </div>
             <div>
                 <img style="border-radius: 10px;"
-                    src="images/45.jpg"
-                    alt=""> <span>$1,099.99</span> <button>Add To Cart</button>
-                <p> SAMSUNG 13.3” Galaxy Book2 Pro Laptop Computer, i5 / 8GB / 256GB, 12th Gen Intel Core Processor, Evo
-                    Certified,
-                    Lightweight, 2022 Model, Graphite</p>
+                    src="images/55.jpg"
+                    alt=""> <span>$229.63</span> <button class="add">Add To Cart</button>
+                <p>Klipsch R-41PM Powered Bookshelf Speaker,Black</p>
                 <ul><strong>About this item</strong>
                     <li>
-                        POWERFUL, FAST, AMAZING: Our new laptop is packed with the premium performance you’ve come to
-                        expect from Samsung — plus
-                        some; It’s powered by the latest 12th Gen Evo-certified Intel processor, our most powerful
-                        available CPU yet
+                        POWERFUL, Powered monitor
                     </li>
                     <br>
                     <li>
-                        THIN, LIGHT, POWERFUL: With a PC this powerful, you’ll want to take it with you wherever you go;
-                        And you can! At less
-                        than 2 pounds, Galaxy Book2 Pro is our thinnest and lightest laptop yet
+                        Bluetooth wireless technology
                     </li>
                     <li>
-                        THIN, LIGHT, POWERFUL: With a PC this powerful, you’ll want to take it with you wherever you go;
-                        And you can! At less
-                        than 2 pounds, Galaxy Book2 Pro is our thinnest and lightest laptop yet
+                        Phono/line analog (with switch and ground screw terminal)
+                    </li>
+                    <li>
+                        3.5mm analog Mini jack </li>
+                    <li>
+                        USB digital
                     </li>
                 </ul>
+                <br>
             </div>
         </div>
         <script src="script.js"></script>

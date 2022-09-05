@@ -9,6 +9,10 @@ var comps;
 var btcomp;
 var lap;
 var labbt;
+var Speaker;
+var Speakbtn;
+var Cart=0;
+var cartBtn;
 function forward()
 {
     if(i==1&&fir==true)
@@ -128,4 +132,30 @@ function showlabs()
     lap .style.display='block';
     // cont.style.backgroundColor="#ED6663"
     labbt.style.backgroundColor='#46B5D1';
+}
+function showSpeakers()
+{
+    Speaker=document.getElementById('Speakers')
+    Speaker.style.display="block";
+    Speakbtn=document.getElementById("Speak")
+    Speakbtn.style.backgroundColor='#46B5D1';
+}
+function hideSpeakers()
+{
+  Speaker=document.getElementById('Speakers')
+    Speaker.style.display="none";
+    Speakbtn=document.getElementById("Speak")
+    Speakbtn.style.backgroundColor='white';
+}
+function addd()
+{
+    cartBtn=document.getElementsByClassName('add');
+for(var i=0;i<cartBtn.length;i+=1)
+{
+    cartBtn[i].addEventListener('click',function()
+{
+Cart+=1;    
+console.log(Cart)
+});
+}
 }
