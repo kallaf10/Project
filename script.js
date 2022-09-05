@@ -7,6 +7,8 @@ var bt
 var cont
 var comps;
 var btcomp;
+var lap;
+var labbt;
 function forward()
 {
     if(i==1&&fir==true)
@@ -110,4 +112,20 @@ function hideComps()
     comps .style.display='none';
     // cont.style.backgroundColor="#ED6663"
     btcomp.style.backgroundColor='white';
+}
+function hidelaps()
+{
+        lap=document.getElementById("Labs")
+    labbt=document.getElementById("Lab");
+    lap.style.display='none';
+    // cont.style.backgroundColor="#ED6663"
+    labbt.style.backgroundColor='white';
+}
+function showlabs()
+{
+        lap=document.getElementById("Labs")
+    labbt=document.getElementById("Lab");
+    lap .style.display='block';
+    // cont.style.backgroundColor="#ED6663"
+    labbt.style.backgroundColor='#46B5D1';
 }

@@ -147,13 +147,13 @@
                 background-color: #46B5D1;
             }
 
-            #Speakers {
+            #Speak {
                 height: 30px;
                 width: 200px;
                 border-radius: 10px;
             }
 
-            #Speakers:hover {
+            #Speak:hover {
                 background-color: #46B5D1;
             }
 
@@ -183,13 +183,22 @@
             div div img:hover {
                 margin: 5px;
                 width: 300px;
-                height: 300px;
+                height: 400px;
+            }
+
+            div div img {
+                height: 200px;
                 z-index: 1000000;
+                width: 100px;
+            }
+
+            #Lab:hover {
+                background-color: #46B5D1;
             }
 
             #Labs {
                 text-align: center;
-                /* display: none; */
+                display: none;
                 font-size: small;
             }
 
@@ -207,5 +216,26 @@
                 border-radius: 10px;
                 text-align: center;
 
+                font-size: small;
+            }
+
+            #Speakers {
+                text-align: center;
+                font-size: small;
+            }
+
+            #Speakers span {
+                font-size: larger;
+                display: block;
+            }
+
+            #Speakers div {
+                width: 25%;
+                margin: 10px;
+                color: black;
+                display: inline-block;
+                background-color: #46B5D1;
+                border-radius: 10px;
+                text-align: center;
                 font-size: small;
             }
