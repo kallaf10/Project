@@ -1,11 +1,12 @@
             nav {
 
-                background-color: #CFD2CF;
+                background-color: #ED6663;
                 position: sticky;
                 margin: 0px;
                 top: 0%;
                 height: 40px;
                 display: block;
+                z-index: 100000000;
             }
 
             #navi {
@@ -16,6 +17,7 @@
 
             body {
                 margin: 0%;
+                background-color: #3C2C3E;
             }
 
             .lnk {
@@ -26,20 +28,19 @@
                 border-radius: 5px;
                 height: 40px;
                 color: black;
-
             }
 
             .lnk:hover {
-                background-color: #FA9494;
+                background-color: #B52B65;
                 opacity: 1
             }
 
             #slider {
                 height: 500px;
-                margin: 10px;
-                border-radius: 10px;
+                /* margin: 10px; */
+                /* border-radius: 10px; */
                 position: relative;
-                background-color: #CFD2CF;
+                background-color: #3C2C3E;
             }
 
             #forward {
@@ -49,11 +50,10 @@
                 border-radius: 20px;
                 left: 75%;
                 top: 40%;
-                border: solid 2px black;
             }
 
             #forward:hover {
-                background-color: #FA9494;
+                background-color: #B52B65;
             }
 
             #backward {
@@ -61,20 +61,151 @@
                 width: 40px;
                 position: absolute;
                 border-radius: 20px;
-                right: 80%;
-                border: solid 2px black;
+                right: 77%;
+                /* border: solid 2px black; */
                 top: 40%;
             }
 
             #backward:hover {
-                background-color: #FA9494;
+                background-color: #B52B65;
             }
 
             #Slphoto {
                 height: 490px;
                 width: 500px;
                 position: absolute;
-                left: 30%;
+                left: 31%;
                 top: 5px;
                 border-radius: 10px;
+            }
+
+            #catgs {
+                text-align: center;
+                font-size: larger;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            #MobContainer {
+                text-align: center;
+                display: none;
+                font-size: small;
+            }
+
+            #MobContainer span {
+                font-size: larger;
+                display: block;
+            }
+
+            #MobContainer div {
+                width: 25%;
+                margin: 10px;
+                color: black;
+                display: inline-block;
+                background-color: #46B5D1;
+                border-radius: 10px;
+                text-align: center;
+
+                font-size: small;
+            }
+
+            p {
+                margin: 2px;
+            }
+
+            ul {
+                margin: 2px;
+            }
+
+            #Mobs {
+                height: 30px;
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            #Mobs:hover {
+                background-color: #46B5D1;
+            }
+
+            #Comp {
+                height: 30px;
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            #Comp:hover {
+                background-color: #46B5D1;
+            }
+
+            #Lab {
+                height: 30px;
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            #Lab:hover {
+                background-color: #46B5D1;
+            }
+
+            #Speakers {
+                height: 30px;
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            #Speakers:hover {
+                background-color: #46B5D1;
+            }
+
+            #Comps {
+                text-align: center;
+                display: none;
+                font-size: small;
+            }
+
+            #Comps span {
+                font-size: larger;
+                display: block;
+            }
+
+            #Comps div {
+                width: 25%;
+                margin: 10px;
+                color: black;
+                display: inline-block;
+                background-color: #46B5D1;
+                border-radius: 10px;
+                text-align: center;
+
+                font-size: small;
+            }
+
+            div div img:hover {
+                margin: 5px;
+                width: 300px;
+                height: 300px;
+                z-index: 1000000;
+            }
+
+            #Labs {
+                text-align: center;
+                /* display: none; */
+                font-size: small;
+            }
+
+            #Labs span {
+                font-size: larger;
+                display: block;
+            }
+
+            #Labs div {
+                width: 25%;
+                margin: 10px;
+                color: black;
+                display: inline-block;
+                background-color: #46B5D1;
+                border-radius: 10px;
+                text-align: center;
+
+                font-size: small;
             }
