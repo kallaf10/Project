@@ -13,6 +13,7 @@ var Speaker;
 var Speakbtn;
 var Cart=0;
 var cartBtn;
+var hhh;
 function forward()
 {
     if(i==1&&fir==true)
@@ -154,8 +155,13 @@ for(var i=0;i<cartBtn.length;i+=1)
 {
     cartBtn[i].addEventListener('click',function()
 {
+    hhh=document.getElementById('hhh')
 Cart+=1;    
+hhh.innerHTML=Cart;
 console.log(Cart)
 });
 }
 }
+  function topFunction() {
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            } 
