@@ -1,12 +1,13 @@
             nav {
 
-                background-color: #EF5B0C;
+                background-color: #035397;
                 position: sticky;
                 margin: 0px;
                 top: 0%;
                 height: 40px;
                 display: block;
                 z-index: 100000000;
+                color: white;
             }
 
             #cartt {
@@ -25,17 +26,19 @@
 
             #navi {
                 position: absolute;
+                color: white;
                 top: 10px;
                 left: 35%;
             }
 
             body {
                 margin: 0%;
-                background-color: #293462;
+                background-color: antiquewhite;
             }
 
             .lnk {
                 text-decoration: none;
+                color: beige;
                 margin: 10px;
                 padding: 10px;
                 /* border: solid 2px #FA9494; */
@@ -45,7 +48,7 @@
             }
 
             .lnk:hover {
-                background-color: #B52B65;
+                background-color: antiquewhite;
                 opacity: 1
             }
 
@@ -54,7 +57,7 @@
                 /* margin: 10px; */
                 /* border-radius: 10px; */
                 position: relative;
-                background-color: #2C3333;
+                background-color: rgb(82, 82, 82);
             }
 
             #forward {
@@ -116,7 +119,7 @@
                 margin: 10px;
                 color: black;
                 display: inline-block;
-                background-color: #46B5D1;
+                background-color: burlywood;
                 border-radius: 10px;
                 text-align: center;
 
@@ -138,7 +141,7 @@
             }
 
             #Mobs:hover {
-                background-color: #46B5D1;
+                background-color: #035397;
             }
 
             #Comp {
@@ -148,7 +151,7 @@
             }
 
             #Comp:hover {
-                background-color: #46B5D1;
+                background-color: #035397;
             }
 
             #Lab {
@@ -158,7 +161,7 @@
             }
 
             #Lab:hover {
-                background-color: #46B5D1;
+                background-color: #035397;
             }
 
             #Speak {
@@ -168,7 +171,7 @@
             }
 
             #Speak:hover {
-                background-color: #46B5D1;
+                background-color: #035397;
             }
 
             #Comps {
@@ -187,7 +190,7 @@
                 margin: 10px;
                 color: black;
                 display: inline-block;
-                background-color: #46B5D1;
+                background-color: burlywood;
                 border-radius: 10px;
                 text-align: center;
 
@@ -207,7 +210,7 @@
             }
 
             #Lab:hover {
-                background-color: #46B5D1;
+                background-color: #035397;
             }
 
             #Labs {
@@ -226,7 +229,7 @@
                 margin: 10px;
                 color: black;
                 display: inline-block;
-                background-color: #46B5D1;
+                background-color: burlywood;
                 border-radius: 10px;
                 text-align: center;
 
@@ -249,14 +252,14 @@
                 margin: 10px;
                 color: black;
                 display: inline-block;
-                background-color: #46B5D1;
+                background-color: burlywood;
                 border-radius: 10px;
                 text-align: center;
                 font-size: small;
             }
 
             footer {
-                background-color: #EF5B0C;
+                background-color: burlywood;
                 height: 120px;
                 z-index: 10000000000000000;
                 border-radius: 10px;
@@ -264,4 +267,18 @@
 
             .icon-circle-arrow-up {
                 border-radius: 50px;
+            }
+
+            .L1 {
+                background-color: burlywood;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 10px;
+                list-style-type: none;
+            }
+
+            #uli {
+                display: inline-block;
+                padding: 0px;
+                margin: 0px;
             }
