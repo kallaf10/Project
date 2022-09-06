@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+            content="IE=edge">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="style.css">
+        <link href="all.min.css"
+            rel="stylesheet">
+
+        <title>Contact Us</title>
+    </head>
+
+    <body onload="validation()">
+        <nav id="na">
+            <a href="Home.html"><img src="images/1.png"
+                    height="40px"
+                    width="60px"></a>
+            <div id="navi">
+                <a href="Home.html"
+                    class="lnk">Home Page</a>
+                <a class="lnk"
+                    href="about.html">About</a>
+                <a class="lnk"
+                    href="ContactUs.html">contact Us</a>
+            </div>
+
+        </nav>
+        <form>
+            <label for="name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text"
+                name="name"
+                id="namem"
+                class="in"
+                placeholder="Enter your Name"><br>
+            <span id="nameV"></span><br>
+            <br>
+            <label for="phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text"
+                name="phone"
+                id="phone"
+                class="in"
+                placeholder="Enter your phone"><br><span id="phoneV"></span><br><br>
+            <label for="email"
+                placeholder="Enter your E-mail">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email"
+                name="email"
+                id="email"
+                class="in"
+                placeholder="Enter Your E-mail"><br>
+            <span id="EmailV"></span><br><br>
+            <label id="la"
+                for="Fead"> Feadback</label>
+            <textarea name="Feadback"
+                id="Fead"
+                cols="30"
+                rows="10"
+                placeholder="Enter your problem"></textarea>
+            <BR><br>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp; <button id="sub"
+                onclick="saveFeadback(event)">Contact Us</button>
+
+
+            <BR></BR>
+
+        </form>
+        <footer>
+            <div style="position: relative;">
+                <ul style="list-style-type:none">Social Media Accounts
+                    <li>
+                        <a style="text-decoration: none; color:black;"
+                            href="https://twitter.com/@m_elklaf"
+                            target="_blank">
+                            <i class="fa-brands fa-twitter"
+                                style="font-size: x-large;"></i></a>
+                    </li>
+                    <li>
+                        <a style="
+                                                            text-decoration:
+                                                            none;
+                                                            color:black;;"
+                            href="https://www.facebook.com/profile.php?id=100003631179647"
+                            target="_blank">
+                            <i class="
+                                                            fa-brands
+                                                            fa-facebook"
+                                style="font-size: x-large;"></i></a>
+                    </li>
+                    <li>
+                        <a style="
+                                                                                                    text-decoration:
+                                                                                                    none;
+                                                                                                    color:black;margin-top: 5px;"
+                            href="https://www.instagram.com/mohamed_mahmoud_elklaf/"
+                            target="_blank">
+                            <i class="fa-brands fa-instagram"
+                                style="font-size: x-large;"></i></a>
+                    </li>
+                    <li>
+                        <a style="
+                                                                                                                                            text-decoration:
+                                                                                                                                            none;
+                                                                                                                                            color:black;margin-top: 5px;"
+                            href="https://www.linkedin.com/in/mohamed-mahmoud-el-kalaf-28194823b/"
+                            target="_blank">
+                            <i class="fa-brands fa-linkedin"
+                                style="font-size: x-large;"></i></a>
+                    </li>
+                </ul>
+                <div style=" position: absolute;
+                  bottom: 10px;
+                  right:  50px;
+                  z-index: 99;">
+                    <i class="fa-solid fa-circle-up"
+                        style="font-size: xxx-large;"
+                        onclick="topFunction()"></i>
+                </div>
+                <div style="position: absolute; top:10px; left: 500px;"
+                    itemscope
+                    itemtype="https://schema.org/Organization"
+                    style="text-align: center;">
+                    <span itemprop="name"><strong>Kstores</strong></span>
+
+                    Contact Details:
+                    <div itemprop="address"
+                        itemscope
+                        itemtype="https://schema.org/PostalAddress">
+                        Main address:
+                        <span itemprop="streetAddress">Abd el3al sherif</span>
+                        <span itemprop="addressLocality">Qalubeia, Egypt</span>
+                    </div>
+                    Tel:<span itemprop="telephone">( 002) 1023493643 </span>,
+                    <br>
+                    Fax:<span itemprop="faxNumber">( 002) 132771179 </span>,
+                    <br>
+                    E-mail: <span itemprop="email"><a
+                            href="mailto:mohamed553q@gmail.com">Mohamed553@gmail.com</a></span>
+                    <br>
+                    <span itemprop="alumni"
+                        itemscope
+                        itemtype="https://schema.org/Person">
+                        <span itemprop="name"><strong>CEO:</strong> Mohamed Mahmoud Elkallaf</span>
+                    </span>,
+                </div>
+            </div>
+
+
+        </footer>
+        <script src="scriptValid.js"></script>
+        <script src="all.min.js"></script>
+    </body>
+
+</html>
