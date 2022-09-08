@@ -1,340 +1,240 @@
-            nav {
+#cartt {
+    width: 70px;
+    position: absolute;
+    display: inline;
+    top: 10px;
+    left: 93%;
+}
 
-                background-color: #035397;
-                position: sticky;
-                margin: 0px;
-                top: 0%;
-                height: 40px;
-                display: block;
-                z-index: 100000000;
-                color: white;
-            }
+#cartt h5 {
+    position: absolute;
+    display: inline;
+    border-radius: 10px;
+    left: 0%;
+    top: -33px;
+    /* text-align: center; */
+    border: solid 1px red;
+    background-color: red;
+}
 
-            #cartt {
-                width: 70px;
-                position: absolute;
-                display: inline;
-                left: 93%;
-                text-align: center;
-            }
+svg {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
 
-            svg {
-                height: 30px;
-                width: 30px;
-                display: inline-block;
-            }
 
-            #navi {
-                position: absolute;
-                color: white;
-                top: 10px;
-                left: 35%;
-            }
 
-            body {
-                margin: 0%;
-                background-color: gray;
-            }
+#slider {
+    height: 500px;
+    /* margin: 10px; */
+    border-radius: 10px;
+    position: relative;
+    background-color: burlywood;
+}
 
-            .lnk {
-                text-decoration: none;
-                color: beige;
-                margin: 10px;
-                padding: 10px;
-                /* border: solid 2px #FA9494; */
-                border-radius: 5px;
-                height: 40px;
-                color: black;
-            }
+#forward {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border-radius: 20px;
+    left: 75%;
+    top: 40%;
+}
 
-            .lnk:hover {
-                background-color: antiquewhite;
-                opacity: 1
-            }
+#forward:hover {
+    background-color: #B52B65;
+}
 
-            #slider {
-                height: 500px;
-                /* margin: 10px; */
-                border-radius: 10px;
-                position: relative;
-                background-color: burlywood;
-            }
+#backward {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border-radius: 20px;
+    right: 77%;
+    /* border: solid 2px black; */
+    top: 40%;
+}
 
-            #forward {
-                height: 40px;
-                width: 40px;
-                position: absolute;
-                border-radius: 20px;
-                left: 75%;
-                top: 40%;
-            }
+#backward:hover {
+    background-color: #B52B65;
+}
 
-            #forward:hover {
-                background-color: #B52B65;
-            }
+#Slphoto {
+    height: 490px;
+    width: 500px;
+    position: absolute;
+    left: 31%;
+    top: 5px;
+    border-radius: 10px;
+}
 
-            #backward {
-                height: 40px;
-                width: 40px;
-                position: absolute;
-                border-radius: 20px;
-                right: 77%;
-                /* border: solid 2px black; */
-                top: 40%;
-            }
+#catgs {
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+}
 
-            #backward:hover {
-                background-color: #B52B65;
-            }
+#MobContainer {
+    text-align: center;
+    display: none;
+    font-size: small;
+}
 
-            #Slphoto {
-                height: 490px;
-                width: 500px;
-                position: absolute;
-                left: 31%;
-                top: 5px;
-                border-radius: 10px;
-            }
+#MobContainer span {
+    font-size: larger;
+    display: block;
+}
 
-            #catgs {
-                text-align: center;
-                font-size: larger;
-                margin: 10px;
-                padding: 10px;
-            }
+#MobContainer div {
+    width: 25%;
+    margin: 10px;
+    color: black;
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
 
-            #MobContainer {
-                text-align: center;
-                display: none;
-                font-size: small;
-            }
+    font-size: small;
+}
 
-            #MobContainer span {
-                font-size: larger;
-                display: block;
-            }
+p {
+    margin: 2px;
+}
 
-            #MobContainer div {
-                width: 25%;
-                margin: 10px;
-                color: black;
-                display: inline-block;
-                background-color: burlywood;
-                border-radius: 10px;
-                text-align: center;
+ul {
+    margin: 2px;
+}
 
-                font-size: small;
-            }
+#Mobs {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
 
-            p {
-                margin: 2px;
-            }
+#Mobs:hover {
+    background-color: #035397;
+}
 
-            ul {
-                margin: 2px;
-            }
+#Comp {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
 
-            #Mobs {
-                height: 30px;
-                width: 200px;
-                border-radius: 10px;
-            }
+#Comp:hover {
+    background-color: #035397;
+}
 
-            #Mobs:hover {
-                background-color: #035397;
-            }
+#Lab {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
 
-            #Comp {
-                height: 30px;
-                width: 200px;
-                border-radius: 10px;
-            }
+#Lab:hover {
+    background-color: #035397;
+}
 
-            #Comp:hover {
-                background-color: #035397;
-            }
+#Speak {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
 
-            #Lab {
-                height: 30px;
-                width: 200px;
-                border-radius: 10px;
-            }
+#Speak:hover {
+    background-color: #035397;
+}
 
-            #Lab:hover {
-                background-color: #035397;
-            }
+#Comps {
+    text-align: center;
+    display: none;
+    font-size: small;
+}
 
-            #Speak {
-                height: 30px;
-                width: 200px;
-                border-radius: 10px;
-            }
+#Comps span {
+    font-size: larger;
+    display: block;
+}
 
-            #Speak:hover {
-                background-color: #035397;
-            }
+#Comps div {
+    width: 25%;
+    margin: 10px;
+    color: black;
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
 
-            #Comps {
-                text-align: center;
-                display: none;
-                font-size: small;
-            }
+    font-size: small;
+}
 
-            #Comps span {
-                font-size: larger;
-                display: block;
-            }
+div div img:hover {
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+}
 
-            #Comps div {
-                width: 25%;
-                margin: 10px;
-                color: black;
-                display: inline-block;
-                background-color: burlywood;
-                border-radius: 10px;
-                text-align: center;
+div div img {
+    height: 200px;
+    z-index: 1000000;
+    width: 100px;
+}
 
-                font-size: small;
-            }
+#Lab:hover {
+    background-color: #035397;
+}
 
-            div div img:hover {
-                margin: 5px;
-                width: 300px;
-                height: 400px;
-            }
+#Labs {
+    text-align: center;
+    display: none;
+    font-size: small;
+}
 
-            div div img {
-                height: 200px;
-                z-index: 1000000;
-                width: 100px;
-            }
+#Labs span {
+    font-size: larger;
+    display: block;
+}
 
-            #Lab:hover {
-                background-color: #035397;
-            }
+#Labs div {
+    width: 25%;
+    margin: 10px;
+    color: black;
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
 
-            #Labs {
-                text-align: center;
-                display: none;
-                font-size: small;
-            }
+    font-size: small;
+}
 
-            #Labs span {
-                font-size: larger;
-                display: block;
-            }
+#Speakers {
+    text-align: center;
+    display: none;
+    font-size: small;
+}
 
-            #Labs div {
-                width: 25%;
-                margin: 10px;
-                color: black;
-                display: inline-block;
-                background-color: burlywood;
-                border-radius: 10px;
-                text-align: center;
+#Speakers span {
+    font-size: larger;
+    display: block;
+}
 
-                font-size: small;
-            }
+#Speakers div {
+    width: 25%;
+    margin: 10px;
+    color: black;
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+}
 
-            #Speakers {
-                text-align: center;
-                display: none;
-                font-size: small;
-            }
-
-            #Speakers span {
-                font-size: larger;
-                display: block;
-            }
-
-            #Speakers div {
-                width: 25%;
-                margin: 10px;
-                color: black;
-                display: inline-block;
-                background-color: burlywood;
-                border-radius: 10px;
-                text-align: center;
-                font-size: small;
-            }
-
-            footer {
-                background-color: burlywood;
-                height: 120px;
-                z-index: 10000000000000000;
-                border-radius: 10px;
-            }
-
-            .icon-circle-arrow-up {
-                border-radius: 50px;
-            }
-
-            .L1 {
-                background-color: burlywood;
-                margin: 10px;
-                padding: 10px;
-                border-radius: 10px;
-                list-style-type: none;
-            }
-
-            #uli {
-                display: inline-block;
-                padding: 0px;
-                margin: 0px;
-            }
-
-            .in {
-                margin: 10px;
-                padding: 10px;
-                height: 15px;
-                width: 200px;
-                border-radius: 10px;
-                border: solid 1px green;
-            }
-
-            textarea {
-                margin: 10px;
-                padding: 10px;
-                width: 200px;
-                border-radius: 10px;
-                display: inline;
-                position: relative;
-                left: 18%;
-                border: solid 1px green;
-
-            }
-
-            #sub {
-                background-color: green;
-                border-radius: 5px;
-                border: solid 3px green;
-                width: 200px;
-                height: 40px;
-
-            }
-
-            #sub:hover {
-                background-color: yellow;
-            }
-
-            form {
-                background-color: burlywood;
-                border-radius: 10px;
-                padding: 10px;
-                margin: 10px;
-                width: 400px;
-                position: relative;
-                left: 30%;
-            }
-
-            #la {
-                margin: 0px;
-                padding: 0px;
-                position: absolute;
-                top: 55%;
-            }
-
-            form span {
-                display: none;
-                color: red;
-            }
+.add {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid 1px aqua;
+    background-color: aqua;
+}

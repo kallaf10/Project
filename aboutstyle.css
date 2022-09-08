@@ -1,0 +1,18 @@
+.L1 {
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+#uli {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    column-count: 3;
+    column-rule: 4px solid black;
+}

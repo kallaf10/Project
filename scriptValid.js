@@ -12,7 +12,8 @@ function validation()
 namem=document.getElementById("namem")
 nameV=document.getElementById("nameV")
  namem.addEventListener('input',function(){
-    if(namem.value.length<=3)
+    var numsss=parseInt(namem.value)
+    if(namem.value.length<=3||!isNaN(numsss))
 {
     nameV.innerText="Enter Valid name"
     nameV.style.display="inline";
@@ -84,35 +85,22 @@ function saveFeadback(e)
     {
         e.preventDefault();
     }
-    var xhr = new XMLHttpRequest(),
-    method = "GET",
-    jsonRequestURL = "Feadback.json";
-    var     jsonArr;
 
-//xhr.open(method, jsonRequestURL);
-xhr.open(method, jsonRequestURL);
+// const client = {
+//  "Name": "Mini Corp.",
+//  "Order_count": 83,
+//  "Address": "Little Havana"
+// }
+//   var xhr = new XMLHttpRequest();
+// var data;
+//   xhr.onreadystatechange = function () {
+//     if (xhr.readyState == 4) {
+//       if (xhr.status == 200) {
+//         data = JSON.stringify(client)
+//       }
+//     }
+//   };
 
-xhr.onreadystatechange = function()
-{
-    if(xhr.readyState == 4 && xhr.status == 200)
-    {
-        // we convert your JSON into JavaScript object
-                jsonArr={"nissan": "sentra", "color": "green"};
-
-        // let arr = JSON.parse(jsonArr);
-
-        // we add new value:
-
-        // we send with new request the updated JSON file to the server:
-        xhr.open("POST", jsonRequestURL);
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        // if you want to handle the POST response write (in this case you do not need it):
-        // xhr.onreadystatechange = function(){ /* handle POST response */ };
-        // jsonArr=JSON.parse(jsonArr)
-        xhr.send(JSON.stringify(jsonArr));
-        // but on this place you have to have a server for write updated JSON to the file
-    }
-};
-
-xhr.send("");
+//   xhr.open("POST", "Feadback.json");
+//      xhr.send(data);
 }

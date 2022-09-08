@@ -1,0 +1,50 @@
+            nav {
+
+                background-color: #035397;
+                position: sticky;
+                margin: 0px;
+                top: 0%;
+                height: 40px;
+                display: block;
+                z-index: 100000000;
+                color: white;
+            }
+
+            #navi {
+                position: absolute;
+                color: white;
+                top: 10px;
+                left: 35%;
+            }
+
+            footer {
+                background-color: burlywood;
+                height: 120px;
+                z-index: 10000000000000000;
+                border-radius: 10px;
+            }
+
+            .lnk {
+                text-decoration: none;
+                color: beige;
+                margin: 10px;
+                padding: 10px;
+                /* border: solid 2px #FA9494; */
+                border-radius: 5px;
+                height: 40px;
+                color: black;
+            }
+
+            .lnk:hover {
+                background-color: antiquewhite;
+                opacity: 1
+            }
+
+            body {
+                margin: 0%;
+                background-color: gray;
+            }
+
+            .icon-circle-arrow-up {
+                border-radius: 50px;
+            }

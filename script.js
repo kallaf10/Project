@@ -93,6 +93,41 @@ function showMobs()
     cont.style.display='block';
     // cont.style.backgroundColor="#ED6663"
     bt.style.backgroundColor='#46B5D1';
+    //     var xhr=new XMLHttpRequest();
+    // xhr.onreadystatechange=function(){
+    //     var tab=document.getElementById("ta");
+    //     if(xhr.readyState==4)
+    //     {
+    //         if(xhr.status==200)
+    //         {
+    //             var result=JSON.parse(xhr.response);
+    //             // var node=document.createElement("tr");
+    //             // var nod2=document.createElement("td");
+    //             // // nod2.innerHTML=result[0].id;
+    //             // // node.appendChild(nod2)
+    //             // // tab.appendChild(node);
+    //             var node =document.createElement("div")
+    //             var nod2=document.createElement('img');
+    //             nod2.src="images/"+result[0].id+".jpg"
+    //             node.appendChild(nod2)
+    //             nod2=document.createElement('p');
+    //             nod2.innerHTML=result[0].name;
+    //             node.appendChild(nod2)
+    //             var nod3=document.createElement('ul');
+    //             nod3.innerText="About This item"
+    //             var nod4=document.createElement("li")
+    //             nod4.innerHTML=result[0].l1
+    //             nod3.appendChild(nod4)
+    //             nod4=document.createElement('li')
+    //             nod4.innerHTML=result[0].l2
+    //             nod3.appendChild(nod4);
+    //             node.appendChild(nod3);
+    //             cont.appendChild(node);
+    //         }
+    //     }
+    // }
+    // xhr.open("GET","Mobs.json");
+    // xhr.send();
 }
 function showComps()
 {
@@ -162,6 +197,3 @@ console.log(Cart)
 });
 }
 }
-  function topFunction() {
-                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-            } 
